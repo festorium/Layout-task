@@ -1,0 +1,77 @@
+  body {
+
+    font-family: "Open Sans", sans-serif;
+
+    line-height: 1.25;
+
+}
+
+.cards {
+display: flex;
+align-items: center;
+margin: 70px 300px 50px 300px;  }
+.card {
+height: 420px;    
+border: 1px solid #ccc;
+box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+.card img {
+max-width: 100%;
+}
+.card .text {
+padding: 0 20px 20px;
+}
+
+    button {
+    margin: 20px;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    color: rgb(25, 116, 214);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    }
+
+    /* 5 */
+    .btn-5 {
+        width: 130px;
+        height: 40px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        background: #fff;
+        margin-left: 65px;
+        margin-top: 60px;
+    }
+    .btn-5:hover {
+    color: #fff;
+    background: transparent;
+    border: solid 3px #ccc;
+    }
+
+   p{
+    margin-top: 0px;
+   }
+   h1{
+    margin: 0px 20px 20px 20px;
+   }
+
+   img{
+    margin: 50px 50px 50px 40px;
+   }
+   .c1{
+        background-color:#a1b6cd ;
+   }
+   .c2{
+        background-color:#348cdc ;
+   }
+   .c3{
+        background-color: #2c649c ;
+   }
+   
